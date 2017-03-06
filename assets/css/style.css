@@ -1,0 +1,55 @@
+.header-area {
+
+}
+
+.name {
+    background-color: #4aaaa5;
+    padding: 25px;
+    width: 140px;
+    text-align: center;
+    color: white;
+    float: left;
+    position: relative;
+    bottom: 20px;
+    left: 230px;
+    font-family: georgia;
+}
+
+.navbar {
+    float: right;
+    position: relative;
+    right: 350px;
+    top: 50px;
+}
+
+.navbar ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.navbar li { 
+display: inline; 
+padding: 20px; 
+}
+
+.container {
+    position: relative;
+    top: 115px;
+}
+
+.aboutMeContainer {
+    width: 400px;
+    position: relative;
+    left: 230px;
+    float: left;
+}
+
+.para {
+
+}
+
+.bottom {
+	clear:both;
+
+}
