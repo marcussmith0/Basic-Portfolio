@@ -1,7 +1,14 @@
 .header-area {
-
+    background-color: white;
+    width: 1366px;
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    border-bottom-style: solid;
+    border-color: rgba(49, 30, 30, 0.27);
+    border-bottom-width: thin;
 }
-
 .name {
     background-color: #4aaaa5;
     padding: 25px;
@@ -13,6 +20,7 @@
     bottom: 20px;
     left: 230px;
     font-family: georgia;
+    top: 0px;
 }
 
 .navbar {
@@ -20,6 +28,13 @@
     position: relative;
     right: 350px;
     top: 50px;
+    font-family: Arial;
+    color: #777777;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 .navbar ul {
@@ -34,18 +49,24 @@
 }
 
 .container {
-    position: relative;
-    top: 115px;
-
+    position: absolute;
+    top: 129px;
+    width: 1366px;
+    border-style-top: solid;
+    border-color: black;
 }
-
 .aboutMeContainer {
-    width: 600px;
-    position: relative;
+    width: 475px;
+    position: absolute;
     left: 40px;
     float: left;
     background-color: white;
     padding: 10px;
+    margin-top: 30px;
+    left: 220px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(49, 30, 30, 0.27);
 }
 
 .para {
@@ -53,16 +74,31 @@
 }
 
 .bottom {
-	clear:both;
+    clear: both;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    background-color: #666666;
+    top: 670px;
+    left: -8px;
+    width: 1255px;
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #4aaaae;
+    color: #999999;
 
 }
-
 .connect {
-    position: relative;
+    position: absolute;
     float: left;
     left: 70px;
     padding: 10px 50px 50px;
     background-color: white;
+    left: 750px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(49, 30, 30, 0.27);
 }
 
 .icons {
@@ -72,8 +108,29 @@
 img {
     float: left;
     padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
 }
 
 body {
-	background-color: gray;
+    background-color: #f1eeee;
+}
+h2 {
+    border-bottom-style: line;
+    border-bottom-width: thin;
+}
+
+.about {
+    color: #4aaaa5;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    font-family: georgia;
+    border-bottom-color: rgba(128, 128, 128, 0.4);
+}
+
+.icons {
+    align-content: center;
+    position: relative;
+    left: 15px;
+    top: 10px;
 }
