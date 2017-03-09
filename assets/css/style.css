@@ -88,6 +88,22 @@ a {
     color: white;
 
 }
+
+.bottom2 {
+    clear: both;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    background-color: #666666;
+    top: 750px;
+    left: -8px;
+    width: 1255px;
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #4aaaae;
+    color: white;
+
+}
 .connect {
     position: absolute;
     float: left;
@@ -110,6 +126,7 @@ img {
     padding-right: 15px;
     padding-bottom: 15px;
     margin-top: 10px;
+
 }
 
 body {
@@ -165,8 +182,14 @@ a:active {
 }
 
 .contactcontainer {
-    margin: 5px;
+    margin: 15px;
     font-family: arial;
+}
+
+.photocontainer {
+    position: relative;
+    left: 50px;
+
 }
 
 input[type=text], select, textarea {
@@ -191,4 +214,63 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #4eeee5;
+}
+
+.navr {
+    background-color: #4aaaa5;
+    color: white;
+    width: 170px;
+    position: absolute;
+    top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.farm {
+    background-color: #4aaaa5;
+    color: white;
+    width: 170px;
+    position: absolute;
+    top: 265px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.sports {
+    background-color: #4aaaa5;
+    color: white;
+    width: 170px;
+    position: absolute;
+    top: 430px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.strutters {
+    background-color: #4aaaa5;
+    color: white;
+    width: 170px;
+    position: absolute;
+    top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    left: 185px
+
+}
+
+.maze {
+    background-color: #4aaaa5;
+    color: white;
+    width: 170px;
+    position: absolute;
+    top: 265px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    left: 185px
 }
